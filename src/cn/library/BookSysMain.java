@@ -43,6 +43,7 @@ public class BookSysMain {
                 break;
             case "2":
                 //Admin
+                adminService.adminFunction(sysDto);
                 break;
             case "0":
                 //Exit

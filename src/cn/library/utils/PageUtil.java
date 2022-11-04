@@ -19,11 +19,23 @@ public class PageUtil {
         System.out.print("Please Enter in:");
     }
 
-    public static void readerQuery() {
-        System.out.println("************************Query**************************");
+    public static void admin() {
+        System.out.println("************************Admin************************");
         System.out.println("1. View Books");
-        System.out.println("2. Query(by name)");
+        System.out.println("2. Add Books");
+        System.out.println("3. Modify Books");
+        System.out.println("4. Delete Books");
         System.out.println("0. Return");
         System.out.print("Please Enter in:");
+    }
+
+    public static void Modify() {
+        System.out.println("***********************Modify***************************");
+        System.out.println("1. Modify name");
+        System.out.println("2. Modify author");
+        System.out.println("3. Modify price");
+        System.out.println("4. Modify stock ");
+        System.out.println("0. Return");
+        System.out.print("Please enter in:");
     }
 }

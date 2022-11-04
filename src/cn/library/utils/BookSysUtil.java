@@ -1,5 +1,7 @@
 package cn.library.utils;
 
+import cn.library.entity.Book;
+
 import java.util.List;
 import java.util.Scanner;
 
@@ -16,5 +18,13 @@ public class BookSysUtil {
             }
         }
        return typeValue;
+    }
+    public static Book getBook(String bookName, List<Book> bookDB) {
+        for (Book book : bookDB) {
+            if(bookName.equals(book.getName())){
+                return book;
+            }
+        }
+        return null;
     }
 }
