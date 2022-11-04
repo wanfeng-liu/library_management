@@ -4,7 +4,7 @@ public class PageUtil {
     public static void home() {
         System.out.println("**************Welcome to Library Management System**********");
         System.out.println("1. Reader");
-        System.out.println("2. Manager");
+        System.out.println("2. Admin");
         System.out.println("0. Exit");
         System.out.print("Please Select your Roles:");
     }
@@ -21,5 +21,9 @@ public class PageUtil {
 
     public static void readerQuery() {
         System.out.println("************************Query**************************");
+        System.out.println("1. View Books");
+        System.out.println("2. Query(by name)");
+        System.out.println("0. Return");
+        System.out.print("Please Enter in:");
     }
 }
